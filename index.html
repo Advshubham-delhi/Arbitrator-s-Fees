@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arbitrator’s Fee Calculator | FS & Partners</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header-content">
+    <img src="./logo.png" alt="Logo" class="logo" />
+    <div class="title-section">
+      <h1>ARBITRATOR'S FEE CALCULATOR</h1>
+      <p>Based on the Fourth Schedule of the Arbitration & Conciliation Act, 1996</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <form id="fee-form">
+      <div class="input-group">
+        <label for="claimAmount">Claim Amount (₹)</label>
+        <input type="number" id="claimAmount" placeholder="Enter Claim Amount" required />
+      </div>
+
+      <div class="input-group">
+        <label for="arbitratorType">Arbitration Type</label>
+        <select id="arbitratorType">
+          <option value="tribunal">Three Arbitrators</option>
+          <option value="sole">Sole Arbitrator</option>
+        </select>
+      </div>
+	  
+	  <div class="input-group">
+  <label for="extraExpenses">Additional Expenses (if any)</label>
+  <input type="number" id="extraExpenses" placeholder="Enter in ₹ (Optional)" />
+</div>
+
+
+      <button type="button" onclick="calculateFee()">Calculate Fee</button>
+    </form>
+
+    <div id="feeResult" class="result-box"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 <a href="https://www.linkedin.com/company/fs-partners-advocates/" target="_blank">FS & Partners</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
