@@ -79,3 +79,33 @@ footer {
   text-align: center;
   margin-top: 40px;
 }
+.terms-section {
+  max-width: 800px;
+  margin: 40px auto;
+  font-size: 0.9em;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.terms-section details summary {
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.terms-section details[open] summary {
+  margin-bottom: 15px;
+}
+
+.terms-section .terms-content p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.terms-section a {
+  color: #065656;
+  text-decoration: underline;
+}
