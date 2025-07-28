@@ -1,0 +1,15 @@
+{
+  "name": "MSME Claim Calculator",
+  "short_name": "MSME Calculator",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#043434",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
