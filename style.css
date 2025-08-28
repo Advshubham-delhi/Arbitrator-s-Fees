@@ -74,7 +74,42 @@ button:hover {
   border: 1px solid #043434;
   border-radius: 6px;
 }
+/* Button Base */
+.btn {
+  background: #003366;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+/* Button Base */
+.btn {
+  background: #003366;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
 
+/* Blink Animation */
+.blink {
+  animation: blinkHighlight 1s infinite;
+}
+
+@keyframes blinkHighlight {
+  0%, 100% {
+    background: #003366;
+    color: #fff;
+  }
+  50% {
+    background: #ffcc00;
+    color: #000;
+  }
+}
 footer {
   text-align: center;
   padding: 15px;
@@ -83,5 +118,6 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
 
 
