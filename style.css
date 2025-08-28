@@ -80,7 +80,7 @@ button:hover {
   border-radius: 6px;
 }
 /* Button Base */
-.btn {
+.btn blink {
   background: #003366;
   color: #fff;
   padding: 10px 16px;
@@ -90,7 +90,7 @@ button:hover {
   transition: background 0.3s;
 }
 /* Button Base */
-.btn {
+.btn blink {
   background: #003366;
   color: #fff;
   padding: 10px 16px;
@@ -123,6 +123,7 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
 
 
 
