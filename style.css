@@ -102,16 +102,16 @@ button:hover {
 
 /* Blink Animation */
 .blink {
-  animation: blinkHighlight 1s infinite;
+  animation: blinkHighlight 10s infinite;
 }
 
 @keyframes blinkHighlight {
   0%, 100% {
-    background: #003366;
+    background: #043434;
     color: #fff;
   }
   50% {
-    background: #ffcc00;
+    background: #f4fefd;
     color: #000;
   }
 }
@@ -123,6 +123,7 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
 
 
 
