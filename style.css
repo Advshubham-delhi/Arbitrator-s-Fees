@@ -51,7 +51,12 @@ input, select {
   border-radius: 6px;
   border: 1px solid #ccc;
 }
-
+.diac-box p {
+	text-align: center;
+  margin: 5px 0 0;
+  font-size: 14px;
+ 
+}
 button {
   padding: 12px 20px;
   background: #043434;
@@ -118,6 +123,7 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
 
 
 
